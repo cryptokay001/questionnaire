@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Questionnaire</title>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <h1>Questionnaire</h1>
+        <form>
+            <label for="Name" class="head">
+                Name*:
+                <input type="text" name="Name" placeholder="Enter name"/>
+            </label>
+            
+            <p>
+                <label for="phone" class="head">
+                    Phone*:
+                    <input type="text" name="Phone" placeholder="Enter whatsapp number"/>
+            </p>
+                    <p>
+                    </label>
+                    
+                        <label for="Gender">
+                            Gender:<br/>
+                            <input type="radio" name="Gender" value="male">Male
+                            <input type="radio" name="Gender" value="female">Female
+                        </label>
+
+                    </p>
+                    
+                    <label for="choice" class="head">
+                        Choose your career:<br/>
+                        
+                        <input type="radio" name="career_choice" value="Data analyst"/>Data Science<br/>
+                        <input type="radio" name="career_choice" value="Web design"/>Web Design<br/>
+                        <input type="radio" name="career_choice" value="App developer"/>App Development<br/>
+                        <input type="radio" name="career_choice" value="Forex Expert"/>Forex Expert<br/>
+    
+                    </label>
+                    <p>
+                        <label>
+                            Why?<br/>
+                            <textarea name="whyarea" placeholder="Enter reason for career choice..." rows="4" cols="40"></textarea>
+
+                        </label>
+    
+
+                    </p>
+                    <p>
+                        <label for="checkb">
+                            Which of the following best defines your experience in tech?<br/>
+                            <input type="checkbox"  name="checkb1" value="worthwhile"/>Worthwhile<br/>
+                            <input type="checkbox" name="checkb2" value="wastetime"/>Not worth the time<br/>
+                            <input type="checkbox" name="checkb3" value="ffreedom"/>Financial freedom<br/>
+                            <input type="checkbox" name="checkb4" value="somelese"/>I should learn something else<br/>
+                            <input type="checkbox" name="checkb5" value="Easiestway"/>Easiest way to financial freedom<br/>
+                        </label>
+                    </p>
+                    
+                    
+                
+            
+            <input type="submit" value="Submit" style="background-color: red;"/>
+
+        </form>
+        
+    </body>
+
+
+
+</html>
